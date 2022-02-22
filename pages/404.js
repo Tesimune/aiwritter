@@ -1,18 +1,6 @@
-import react from "react";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
+
 
 const Notfound = () => {
-    const router = useRouter();
-
-    useEffect(() => {
-
-        setTimeout(() => {
-            // router.go(-1)
-            router.push('/')
-        }, 5000);
-
-    }, [])
 
     return ( 
         <div className="text-gray-800 dark:text-gray-50 h-screen w-full">

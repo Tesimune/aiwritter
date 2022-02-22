@@ -6,10 +6,10 @@ const layouts = ({ children }) => {
     return (
         <div className="bg-gray-200 dark:bg-slate-900 dark:text-gray-50 p-5 w-full h-full">
             <Navbar/>
-                { children }
+            { children }
             <Footer/>
         </div>
-     );
+    );
 }
- 
+
 export default layouts;

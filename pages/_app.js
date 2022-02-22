@@ -1,12 +1,18 @@
+import Layouts from '../components/layouts/index'
+import AppContextProvider from "../utils/app-context";
 import '../styles/globals.css'
-import Layouts from '../comps/layouts'
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <Layouts>
-      <Component {...pageProps} />
-    </Layouts>
-  )
+
+function MyApp ({ Component, pageProps }){
+
+        return (
+            <AppContextProvider>
+                <Layouts>
+                    <Component {...pageProps} />
+                </Layouts>
+            </AppContextProvider>
+        )
 }
 
-export default MyApp
+
+export default MyApp;
