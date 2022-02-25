@@ -13,7 +13,7 @@ export default function TextArea(props) {
                 value={text}
                 onChange={ (e) => setText(e.target.value)}
             />
-            <p className="text-4xl absolute text-black font-medium">{text.length} / 1,500</p>
+            <p className="text-4xl absolute font-medium">{text.length}</p>
         </div>
     )
 }

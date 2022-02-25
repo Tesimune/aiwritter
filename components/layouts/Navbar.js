@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 const navbar = () => {
     return ( 
-        <div className="text-gray-800 dark:text-gray-50 m-3">
+        <div className="text-gray-800 dark:text-gray-50 p-5">
             <nav className='flex justify-between'>
-              <div>
-                {/* <Image src="/logo.png" alt="" width={128} height={33} /> */}
+              <div className='m-2'>
+              <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
               </div>
 
               <div>

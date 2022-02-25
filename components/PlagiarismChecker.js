@@ -3,7 +3,7 @@ import {AppContext} from "../utils/app-context";
 import {PlagiarismCheckIcon} from "./svg";
 import TabButton from "./TabButton";
 import displayResult from "../utils/displayResult";
-import axios from "axios";
+const axios = require("axios").default
 
 
 export default function PlagiarismChecker(props){

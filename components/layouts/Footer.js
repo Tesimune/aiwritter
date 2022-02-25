@@ -1,7 +1,7 @@
 import Image from "next/image";
 const footer = () => {
     return ( 
-      <div>
+      <div className="bg-gray-300 dark:bg-slate-900 dark:text-gray-50">
         <footer className="flex justify-center border-t">
         <a href="" target="_blank" rel="noopener noreferrer">
           Powered by {' '}

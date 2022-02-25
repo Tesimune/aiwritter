@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
 
-   <div className={styles.wrapper}>
+   
 
       <main className={styles.main}>
         
@@ -28,6 +28,5 @@ export default function Home() {
        
       </main>
       
-    </div>  
   )
 }
